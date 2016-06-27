@@ -1,0 +1,24 @@
+lambda = 0
+minus_y =  4.2899
+one_minus_y = -11.027
+cost_total =  0.76584
+reg = 0
+J =  0.76584
+lambda = 0
+minus_y =  4.2899
+one_minus_y = -11.027
+cost_total =  0.76584
+reg = 0
+J =  0.76584
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |  30 /  30 | Nice work!
+==                Logistic Regression Gradient |   0 /  30 | 
+==                                     Predict |   0 /   5 | 
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |  35 / 100 | 
+== 
