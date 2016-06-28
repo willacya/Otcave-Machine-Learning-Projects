@@ -82,8 +82,11 @@ d2 = d3 * Theta2(:,2:end) .* sigmoidGradient(z2); % (m x h)
 Delta1 = d2' * a1;
 Delta2 = d3' * a2;
 
-Theta1_grad = Delta1/m + lambda*Theta1;
-Theta2_grad = Delta2/m + lambda*Theta2;
+Theta1(:,1) = 0;
+Theta2(:,1) = 0;
+
+Theta1_grad = Delta1/m + Theta1*(lambda/m);
+Theta2_grad = Delta2/m + Theta2*(lambda/m);
  
 
 
